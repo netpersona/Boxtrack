@@ -1,0 +1,24 @@
+services:
+  boxtrack:
+    build: .
+    container_name: boxtrack
+    restart: unless-stopped
+    ports:
+      - "5001:5001"
+    volumes:
+      - boxtrack_data:/data
+    environment:
+      - NODE_ENV=production
+      - PORT=5001
+      - BOXTRACK_DATA_DIR=/data
+      - TZ=America/New_York
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:5001/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+volumes:
+  boxtrack_data:
+    driver: local
