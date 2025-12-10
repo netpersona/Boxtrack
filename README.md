@@ -35,6 +35,29 @@
 
 ---
 
+## What does it look like?
+
+### Home Screen
+
+<img width="1412" height="761" alt="Screenshot_20251209_202753" src="https://github.com/user-attachments/assets/1f609899-17b8-49fa-83b6-52f2bc60c40f" />
+
+### Add An Item
+
+<img width="779" height="532" alt="Screenshot_20251209_202916" src="https://github.com/user-attachments/assets/5b338334-5368-4c92-9b4c-e8c935ed3666" />
+
+### Viewing A Zone
+
+<img width="564" height="414" alt="Screenshot_20251209_203036" src="https://github.com/user-attachments/assets/59a4b973-8f74-4c1e-a89b-684b4bac6b8a" />
+
+### Viewing A Storage Container
+
+<img width="1152" height="658" alt="Screenshot_20251209_203133" src="https://github.com/user-attachments/assets/f3c3a542-3d88-4aab-8573-24ff76625711" />
+
+### The Print Manifest
+
+<img width="494" height="504" alt="Screenshot_20251209_203150" src="https://github.com/user-attachments/assets/1a48ace0-dcb0-4751-b816-71518316eba0" />
+
+
 ## Quick Start
 
 ### Docker (Recommended)
